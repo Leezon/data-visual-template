@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color: #f8f8f8;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root {
+  transition: all 0.3s;
+}
+.panel {
+  background-image: url(../images/background.png);
+  background-size: 100% 100%;
+  width: 1920px;
+  height: 1080px;
+}
