@@ -1,8 +1,7 @@
 let root = document.getElementById('root');
 
 let setScale = debounce(() => {
-  let scale = getScale();
-  root.style.transform = `scale(${scale})`;
+  root.style.transform = `scale(${getScale()})`;
 }, 200);
 
 window.addEventListener('resize', setScale);
